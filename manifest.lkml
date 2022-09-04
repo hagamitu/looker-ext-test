@@ -1,6 +1,7 @@
 application: helloworld-ts {
   label: "Helloworld (TypeScript)"
-  file: "bundle.js"
+  url: "https://localhost:8080/bundle.js"
+  #file: "bundle.js"
   entitlements: {
     core_api_methods: ["me"]
   }
